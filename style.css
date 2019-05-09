@@ -69,12 +69,28 @@ p {
     background-color: #e7e8ea;
     border-color: #dddfe2;
 }
-
+.container__footer {
+	width: 100%;
+	background-color: #f8f9fa;
+	text-align: center;
+	padding: 30px;
+}
 /* character */
+h4 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
 h1.title {
     color:#3c78d8;
 }
 
+.gray {
+	color: gray;
+}
+.red {
+	color: red;
+}
 /* table */
 table.table__open {
     width: 100%;
@@ -84,10 +100,11 @@ table.table__open {
 }
 
 .table__open th {
-    width: 30%;
+	text-align: right;
+}
+
+.table__open th h4{
     text-align: right;
-    color: #808080;
-    font-size: 1.5rem;
 }
 .table__open td {
     width: 70%;
@@ -99,22 +116,35 @@ table.table__open {
 }
 
 /* badge */
+.table__skill .badge {
+	margin-right: 10px;
+}
 .badge {
-    color: white;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
     font-weight: 700;
-    border-radius: 50%;
-    padding: 0 7px;
-    margin-right: 5px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
 }
 .badge__primary {
+	color: white;
     background-color: #007bff;
 }
 .badge__secondary {
-    background-color: #868e96;
+    color: white;
+	background-color: #868e96;
 }
 .badge__light {
     color: #111;
     background-color: #f8f9fa;
+}
+.badge__info {
+    color: #fff;
+    background-color: #17a2b8;
 }
 /* test */
 .test1 {
