@@ -62,7 +62,7 @@ p {
     width: 70%;
 }
 .container__section {
-    margin: 5px;
+    margin: 50px 0;
 }
 .container__alert {
     color: #464a4e;
@@ -97,16 +97,7 @@ table.table__open {
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding: 30px;
 }
-.table__open ul {
-    overflow: hidden;
-}
-.table__open ul.container__badge {
-    list-style-type: none;
-}
-.table__open ul li {
-    float: left;
-    margin: 10px 20px;
-}
+
 /* badge */
 .badge {
     color: white;
