@@ -57,6 +57,8 @@ p {
 }
 .container__profile_photo img {
     border-radius: .25rem;
+	max-width: 240px;
+	min-height: 320px;
 }
 .container__profile_info {
     width: 70%;
