@@ -393,7 +393,13 @@
 	<!-- wow -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script>
-		new WOW().init();
+		new WOW({
+			boxClass:     'wow',      // default
+			animateClass: 'animated', // default
+			offset:       0,          // default
+			mobile:       false,       // default
+			live:         true        // default
+		}).init();
 	</script>
 </body>
 </html>
