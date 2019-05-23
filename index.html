@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet" type="text/css"/> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./style.css"/>
@@ -13,13 +14,13 @@
     <div class="container__main">
         <div class="container__float">
             <!-- 프로필 사진 -->
-            <div class="container__float_item container__profile_photo">
+            <div class="container__float_item container__profile_photo wow fadeInLeft" data-wow-delay=".25s">
                 <!-- 반명함판 크기 -->
                 <img src="https://raw.githubusercontent.com/junhyeok-im/resume/master/img/id_photo.jpg" alt="프로필 사진">
             </div>
 
             <!-- Contact 정보 -->
-            <div class="container__float_item container__profile_info">
+            <div class="container__float_item container__profile_info wow fadeInRight" data-wow-delay=".25s">
                 <h1 class="title">임 준 혁</h1>
                 <div class="container__float">
                     <div class="container__float_item"><i class="fa fa-envelope" aria-hidden="true"></i></div>
@@ -42,23 +43,20 @@
 
         <!-- 프로필 소개 -->
         <div class="container__section">
-            <h1 class="title">INTRODUCE</h1>
-            <p>
+            <h1 class="title wow bounceInDown">INTRODUCE</h1>
+            <p class="wow bounceInUp">
                 대학생 시절 안드로이드, 웹 개발을 하며 클라이언트단 개발에 관심을 가지게 되었습니다. 웹 개발은 C나 C++을 이용해서 프로그램을 개발하는 것에 비해 러능 커브가 작고 결과물을 빨리 만들 수 있다는 점에서 저에게 매력으로 다가왔습니다. 
-            </p>
-            
-            <p>
+				<br/><br/>
                 학부생 시절 교내외 공모전에 참가하며 Node.js, Spring, JSP, jQuery, Bootstrap, Git, Linux 등을 사용하여 웹 서비스를 개발한 경험이 있습니다. 또한 지난 1년간(2018.04 ~ 2019.05) <a href="https://www.qoo10.com/" target="_blank">Qoo10</a>이라는 오픈마켓에서 근무하며 사내 그룹웨어와 Weblog 기반의 Analytics 사이트 개발에 참여한 이력이 있습니다.
-            </p>
-            <p>
+				<br/><br/>
                 웹 개발에 있어 웹 퍼블리싱(HTML, CSS 작업)도 물론 중요한 작업이지만, 최근에는 스크립트 언어(Javascript, python 등등...)가 발전하면서 UX 부분의 중요도가 높아졌습니다. 특히 React.js, Vue.js, Angular.js 등 여러 프론트 라이브러리의 등장으로 프론트 부분도 MVC 형태로 세분화 시키는 작업이 필요해졌습니다. 뿐만 아니라 스크립트 언어는 브라우저나 특정 플랫폼에서 동작 하는 것을 넘어서, 서버 혹은 하나의 응용 프로그램을 만들 수 있게 되었습니다. 따라서, 이런 스크립트 언어를 이용하여 프론트뿐만 아니라 백엔드까지 개발하는 풀스택 개발자가 제 목표입니다.
             </p>
         </div>
 		
         <!-- 경력 -->
         <div class="container__section">
-            <h1 class="title">EXPERIENCE</h1>
-            <table class="table__open">
+            <h1 class="title wow fadeIn" data-wow-delay=".25s">EXPERIENCE</h1>
+            <table class="table__open wow fadeInUp" data-wow-delay=".25s">
                 <tbody>
                     <tr>
                         <th>
@@ -108,8 +106,8 @@
         </div>
 		<!-- 프로젝트 -->
 		<div class="container__section">
-			<h1 class="title">PROJECTS</h1>
-			<table class="table__open">
+			<h1 class="title wow fadeIn" data-wow-delay=".25s">PROJECTS</h1>
+			<table class="table__open wow fadeInUp" data-wow-delay=".25s">
 				<tbody>
 					<tr>
 						<th><h4 class="gray">2018.04 ~ 2019.05</h4></th>
@@ -254,8 +252,8 @@
 		</div>
         <!-- 프로그래밍 개발 능력 -->
         <div class="container__section">
-            <h1 class="title">SKILLS</h1>
-            <table class="table__open table__skill">
+            <h1 class="title wow fadeIn" data-wow-delay=".25s">SKILLS</h1>
+            <table class="table__open table__skill wow fadeInUp" data-wow-delay=".25s">
                 <tbody>
                     <tr>
                         <th><h4 class="gray">Front-end</h4></th> 
@@ -312,11 +310,11 @@
         </div>
         <!-- 학력 -->
         <div class="container__section">
-			<h1 class="title">EDUCATION</h1>
+			<h1 class="title wow fadeIn" data-wow-delay=".25s">EDUCATION</h1>
 			<i class="red">* 블라인드 서류 지원으로 인해 구체적인 학력 사항은 기재하지 않습니다.</i>
 			<br/>
 			<br/>
-            <table class="table__open table__skill">
+            <table class="table__open table__skill wow fadeInUp" data-wow-delay=".25s">
                 <tbody>
                     <tr>
                         <th><h4 class="gray">2011.03 ~ 2018.02</h4></th> 
@@ -337,8 +335,8 @@
 		</div>
         <!-- 수상 및 기타-->
         <div class="container__section">
-			<h1 class="title">ETC</h1>
-            <table class="table__open">
+			<h1 class="title wow fadeIn" data-wow-delay=".25s">ETC</h1>
+            <table class="table__open wow fadeInUp" data-wow-delay=".25s">
                 <tbody>
                     <tr>
                         <th>
@@ -386,6 +384,16 @@
 			<br/>
 			<small>Last Modified at 2019.05</small>
 		</div>
-    </div>
+	</div>
+	<!-- jQuery -->
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+	crossorigin="anonymous"></script>
+	<!-- wow -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
