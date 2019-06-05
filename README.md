@@ -1,5 +1,5 @@
 # 이력서 사이트  
-[임준혁님의 이력서 확인 하러 GoGo](https://lymjh.github.io/resume/)
+[임준혁님의 이력서 확인 하러 GoGo](https://jhlym.github.io/resume/)
 
 # 개발하게 된 계기
 * 우연히 [유용우님 이력서 사이트](https://resume.yowu.dev/)를 보고 나도 이력서를 웹으로 만들면 좋겠다고 생각 했습니다.
